@@ -26,7 +26,7 @@ p {
     background-image: url('banner.png');
     background-size: cover;
     background-position: 0 15%;
-    height: 100px;
+    height: 150px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -73,7 +73,6 @@ p {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.25;
-    letter-spacing: 0.05rem;
     color: #5b759e;
 }
 
