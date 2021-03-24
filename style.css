@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Canela';
-    src: url('fonts/Canela-Regular.ttf');
+    src: url('assets/fonts/Canela-Bold.ttf');
   }
 
 :root {
@@ -26,7 +26,13 @@ p {
     background-image: url('banner.png');
     background-size: cover;
     background-position: 0 15%;
-    height: 200px;
+    height: 100px;
+}
+
+@media only screen and (min-width: 600px) {
+    #banner {
+        height: 200px;
+    }
 }
 
 #likes {
