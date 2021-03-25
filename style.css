@@ -76,7 +76,7 @@ p {
 
 #header {
     text-align: center;
-    margin-top: 75px;
+    margin-top: 65px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -164,6 +164,10 @@ p {
     #profilePicture, #profilePicture img {
         bottom: -90px;
         z-index: 1;
+    }
+
+    #header {
+        margin-top: 75px;
     }
 }
 
