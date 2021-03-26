@@ -104,7 +104,7 @@ p {
         display: initial;
         width: 75px;
         position: absolute;
-        height: 20px;
+        height: 16px;
         margin-right: 15px;
         right: 0;
         border: 1px solid #cecece;
@@ -124,17 +124,17 @@ p {
 
     #button1 {
         border-right: 1px solid #cecece;
-        line-height: 1.8;
+        line-height: 1.2;
     }
 
     #button2 {
         border-right: 1px solid #cecece;
-        line-height: 2.4;
+        line-height: 1.8;
         font-size: 9px;
     }
 
     #button3 {
-        line-height: 1.7;
+        line-height: 1.5;
     }
 
     #cardBar {
