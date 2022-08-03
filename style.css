@@ -224,11 +224,11 @@ p {
     }
 
     #banner, #bannerContainer {
-        height: 269px;
+        height: 400px;
     }
 
     #stars {
-        top: 12rem;
+        top: 19rem;
     }
 
     #moon {
@@ -249,7 +249,7 @@ p {
         padding: 0 20px 50px;
         margin: 15px auto;
         position: relative;
-        transform: translateY(-60px);
+        transform: translateY(-150px);
     }
 
     #cardMenu {
@@ -314,7 +314,7 @@ p {
     }
 
     #profilePicture, #profilePicture img {
-        top: 40%;
+        top: 37%;
         z-index: 1;
     }
 
