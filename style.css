@@ -159,8 +159,17 @@ p {
     overflow-x: hidden;
 }
 
+#index {
+    background-image: url('assets/img/catte.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+}
+
 @media only screen and (min-width: 600px) {
-    body {
+    #linktree {
         background: url("https://static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2icx37z/h42pam4gt/tumblr_static_9hudcw057yg4gss440so8cg0g.png");
     }
 
