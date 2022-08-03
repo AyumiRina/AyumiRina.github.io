@@ -10,6 +10,11 @@
     src: url('assets/fonts/mini-wakuwaku.otf');
   }
 
+  @font-face {
+    font-family: 'Consolas';
+    src: url('assets/fonts/Consolas.ttf');
+  }
+
 
 :root {
     --accentColor: #72564B;
@@ -82,12 +87,12 @@ p {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    background-image: url("assets/img/pro-pic.jpg")
+    background-image: url("assets/img/pro-pic.png")
 }
 
 #header {
     text-align: center;
-    margin-top: 65px;
+    margin-top: 60px;
     position: relative;
 }
 
@@ -112,17 +117,26 @@ p {
 
 #circlething {
     display: block;
-    position: absolute;
+    position: fixed;
     background-image: url('assets/img/circlething.png');
-    height: 220px;
-    width: 169px;
+    height: 180px;
+    width: 150px;
     background-size: cover;
     left: 0;
     bottom: 0;
 }
 
 #moon {
-    display: none;
+    display: block;
+    position: absolute;
+    background-image: url('assets/img/moon.png');
+    height: 100%;
+    width: 100%;
+    background-size: 43px;
+    background-repeat: no-repeat;
+    z-index: -99;
+    top: 0;
+    left: 50%;
 }
 
 #left1 {
@@ -141,9 +155,18 @@ p {
     display: none;
 }
 
+#section {
+    overflow-x: hidden;
+}
+
 @media only screen and (min-width: 600px) {
     body {
         background: url("https://static.tumblr.com/d40eae727a79de74c5b3c4cb5c8e9fd5/2icx37z/h42pam4gt/tumblr_static_9hudcw057yg4gss440so8cg0g.png");
+    }
+
+    #circlething {
+        height: 220px;
+        width: 169px;
     }
 
     #left1 {
@@ -200,16 +223,11 @@ p {
     }
 
     #moon {
-        display: block;
-        position: absolute;
-        background-image: url(assets/img/moon.png);
         height: 43px;
         width: 43px;
         background-size: contain;
         top: 7%;
-        background-repeat: no-repeat;
         right: 41%;
-        z-index: -99;
     }
 
     #card {
