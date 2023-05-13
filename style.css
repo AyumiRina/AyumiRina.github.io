@@ -377,6 +377,11 @@ p {
     text-align: center;
     text-underline-offset: 5px;
     color: #8f7156;
+    transition: color 0.3s ease-in-out;
+}
+
+.headerEmail:hover {
+    color: var(--accentColor);
 }
 
 .headerTextAccent {
