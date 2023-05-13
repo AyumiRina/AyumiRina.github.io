@@ -375,7 +375,7 @@ p {
     font-family: 'Quicksand', sans-serif;
     width: 100%;
     text-align: center;
-    text-decoration: none;
+    text-underline-offset: 5px;
     color: #8f7156;
 }
 
