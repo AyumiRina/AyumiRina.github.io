@@ -86,16 +86,8 @@ body#linktree {
     display: block;
     position: relative;
     z-index: 0;
-    width: auto;
+    width: 100%;
     height: auto;
-}
-
-@media (max-width: 899px) {
-    #linktree .linktree-photo {
-        width: auto;
-        max-width: 100%;
-        height: auto;
-    }
 }
 
 #linktree .linktree-doodles {
